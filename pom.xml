@@ -51,12 +51,6 @@
             <artifactId>commons-pool2</artifactId>
         </dependency>
 
-        <!-- RabbitMQ -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
-
         <!-- HttpClient -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
