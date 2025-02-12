@@ -1,0 +1,106 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.master",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.boss.config.DataSourceConfig",
+      "sourceMethod": "masterDataSource()"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.boss.config.DataSourceConfig",
+      "sourceMethod": "oracleDataSource()"
+    },
+    {
+      "name": "spring.datasource.postgresql",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.boss.config.DataSourceConfig",
+      "sourceMethod": "postgresqlDataSource()"
+    },
+    {
+      "name": "spring.datasource.slave",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.boss.config.DataSourceConfig",
+      "sourceMethod": "slaveDataSource()"
+    },
+    {
+      "name": "thread-pool",
+      "type": "com.boss.config.properties.ThreadPoolProperties",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties"
+    },
+    {
+      "name": "thread-pool.async",
+      "type": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties",
+      "sourceMethod": "getAsync()"
+    },
+    {
+      "name": "thread-pool.common",
+      "type": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties",
+      "sourceMethod": "getCommon()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "thread-pool.async.core-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.async.keep-alive",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.async.max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.async.name-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool"
+    },
+    {
+      "name": "thread-pool.async.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.common.core-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.common.keep-alive",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.common.max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "thread-pool.common.name-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool"
+    },
+    {
+      "name": "thread-pool.common.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boss.config.properties.ThreadPoolProperties$Pool",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
