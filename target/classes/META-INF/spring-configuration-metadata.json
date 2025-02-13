@@ -1,30 +1,6 @@
 {
   "groups": [
     {
-      "name": "spring.datasource.master",
-      "type": "javax.sql.DataSource",
-      "sourceType": "com.boss.config.DataSourceConfig",
-      "sourceMethod": "masterDataSource()"
-    },
-    {
-      "name": "spring.datasource.oracle",
-      "type": "javax.sql.DataSource",
-      "sourceType": "com.boss.config.DataSourceConfig",
-      "sourceMethod": "oracleDataSource()"
-    },
-    {
-      "name": "spring.datasource.postgresql",
-      "type": "javax.sql.DataSource",
-      "sourceType": "com.boss.config.DataSourceConfig",
-      "sourceMethod": "postgresqlDataSource()"
-    },
-    {
-      "name": "spring.datasource.slave",
-      "type": "javax.sql.DataSource",
-      "sourceType": "com.boss.config.DataSourceConfig",
-      "sourceMethod": "slaveDataSource()"
-    },
-    {
       "name": "thread-pool",
       "type": "com.boss.config.properties.ThreadPoolProperties",
       "sourceType": "com.boss.config.properties.ThreadPoolProperties"
