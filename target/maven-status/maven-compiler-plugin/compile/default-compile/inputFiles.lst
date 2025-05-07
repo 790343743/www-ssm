@@ -5,17 +5,14 @@ D:\codeSpace\www-ssm\src\main\java\com\boss\config\RestTemplateConfig.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\utils\RequestContextUtils.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\config\WebMvcConfig.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\utils\DateUtils.java
-D:\codeSpace\www-ssm\src\main\java\com\boss\common\Constants.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\common\handler\GlobalExceptionHandler.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\annotation\DataSource.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\config\DynamicDataSource.java
-D:\codeSpace\www-ssm\src\main\java\com\boss\common\Result.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\entity\BaseEntity.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\utils\RedisUtils.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\utils\ExcelUtils.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\utils\IpUtils.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\config\MybatisConfig.java
-D:\codeSpace\www-ssm\src\main\java\com\boss\common\BusinessException.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\config\SwaggerConfig.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\common\enums\ResultCode.java
 D:\codeSpace\www-ssm\src\main\java\com\boss\common\model\QueryRequest.java
